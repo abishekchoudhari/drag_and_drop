@@ -1,7 +1,7 @@
 name: drag_and_drop
 description: Drag and Drop widgets using flutter.
-version: 0.0.1
-homepage:
+version: 1.0.0
+homepage: https://github.com/abishekchoudhari/drag_and_drop.git
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
 
 dev_dependencies:
   flutter_test:
