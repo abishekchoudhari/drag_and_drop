@@ -11,8 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: This package supports drag & drop chip widgets.
 
 ## Features
 
@@ -25,15 +24,19 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
+TODO: 
+Create a list of items. 
 ```dart
-const like = 'sample';
+ items.add(
+        DraggableListItems(item: "Index: $i"),
+      );
+```
+
+and pass the list to create the draggable chip with context.
+```dart
+ DragAndDrop(context: context).generateList(items: items),
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+For further, see the example app.
